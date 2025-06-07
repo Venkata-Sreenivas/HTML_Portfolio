@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="author" content="U.Venkata Sreenivas">
+        <meta name="description" content="Portfolio">
+        <meta property="og:title" content="Utukuri Venkata Sreenivas's Portfolio">
+        <meta property="og:type" content="website">
+        <title>My Portfolio</title>
+        <link rel="icon" type="png" href="D:\Skills\HTML\Project\icon">
+        <link rel="stylesheet" href="D:\Skills\HTML\Project\styles.css">
+   
+
+        <link rel="stylesheet" href="D:\Skills\HTML\Project\styles.css">
+        <style>* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            }
+            
+            body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: bisque;
+            color: #333;
+            line-height: 1.6;
+            }
+            
+            /* Navigation */
+            nav {
+            background-color: #ad8500;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            nav ul.container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            flex-wrap: wrap;
+            }
+            
+            nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+            }
+            
+            nav a:hover {
+            color: #00ff26;
+            }
+            
+            .logo img {
+            height: 50px;
+            border-radius: 50%;
+            }
+            
+            /* Sections */
+            section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+            }
+            
+            h1, h2, h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ad5100;
+            }
+            
+            h1 span {
+            color: #222;
+            }
+            
+            /* Home */
+            .home-content {
+            text-align: center;
+            padding-top: 40px;
+            }
+            
+            .home-content img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+            border: 4px solid #a4ad0000;
+            }
+            
+            /* About */
+            .about-content {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 30px;
+            align-items: center;
+            }
+            
+            .about-text {
+            max-width: 600px;
+            text-align: center;
+            }
+            
+            .about-image img {
+            width: 250px;
+            border-radius: 20px;
+            border: 2px solid #cccccc00;
+            }
+            
+            /* Education */
+            .education-layout {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            }
+            
+            .education-layout img.college-image {
+            width: 300px;
+            border-radius: 10px;
+            border: 2px solid #cccccc00;
+            }
+            
+            .education-text {
+            text-align: center;
+            max-width: 700px;
+            }
+            
+            /* Projects */
+            .projects-item {
+            background-color: #fff;
+            padding: 20px;
+            border-left: 4px solid #adad00;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            }
+            
+            /* Skills */
+            .skills-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            text-align: center;
+            }
+            
+            .skill-category {
+                flex:auto
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="container">
+                    <li class="logo"><a href="#home"><img src="./images/WhatsApp Image 2023-09-23 at 18.42.01.jpg" alt="logo" ></a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <div class="home-content">
+                <h1 style="font-family: 'Times New Roman', Times, serif;"><span>Hello!</span>I'm Utukuri Venkata Sreenivas</h1>
+                </div>
+            </section>
+            <section id="about">
+                <h2>About me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello, I am <strong><em>Utukuri Venkata Sreenivas</Var></em></strong> , a second-year BTech student at GITAM, specializing in Computer Science with a focus on Data Science. I am deeply passionate about data science and web development, with a strong enthusiasm for exploring new technologies and solving complex problems. My commitment to teamwork and my proactive approach to embracing new challenges drive my academic and professional growth.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="./images/WhatsApp Image 2025-04-14 at 13.30.06_e195fe25.jpg" alt="My Picture" />
+                    </div>
+                </div>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <div class="education-content">
+                    <div class="education-layout">
+                        <img src="./images/gitam_hyd_campus_2.jpg" alt="College Image" class="college-image">
+                        <div class="education-text">
+                            <h3>BTech in Computer Science (Data Science)</h3>
+                            <p>GITAM (Deemed to be University), Hyderabad Campus <br> <em>2023 - Present</em></p>
+                            <p>GITAM is known for its strong focus on innovation and research. The campus offers a vibrant environment for learning and personal growth, with modern facilities and experienced faculty. It's an ideal place to pursue a degree in Computer Science, where students are encouraged to explore new ideas and develop their skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="projects-content">
+                    <div class="projects-item">
+                        <h3>Personal Portfolio</h3>
+                        <p><p>This portfolio is a personal project that showcases my information, education, projects, and skills. It is built using HTML and CSS, and it serves as a platform to present my professional and academic journey.</p>
+                    </div>
+                </div>
+                <div class="projects-info">
+                    <p>I plan to add more projects in the future as I continue to grow and learn.</p>
+                </div>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skills-content">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <ol>
+                            <li>
+                                <img src="./icon/c.svg" height="50" alt="C Programming" class="skill-icon">
+                                C Programming
+                            </li>
+                            <li>
+                                <img src="./icon/python.svg" height="50" alt="Python" class="skill-icon">
+                                Python
+                            </li>
+                            <li>
+                                <img src="./icon/javascript.svg" height="50" alt="JavaScript" class="skill-icon">
+                                JavaScript
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Development</h3>
+                        <ol>
+                            <li>
+                                <img src="./icon/html.svg"  height="50" alt="HTML" class="skill-icon">
+                                HTML
+                            </li>
+                            <li>
+                                <img src="./icon/css.svg" height="50" alt="CSS" class="skill-icon">
+                                CSS
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                            <li>
+                                <img src="./icon/git.svg" height="50" alt="Git" class="skill-icon">
+                                Version Control (Git)
+                            </li>
+                    </div>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <span class="contact-item">
+                        <img src="./icon/email.svg" height="20" alt="Email Icon" class="contact-icon">
+                        <a href="mailto:atakulapranav.official@gmail.com">venkatasreenivas2006@gmail.com</a>
+                    </span>
+                    <span class="separator"></span>
+                    <span class="contact-item">
+                        <img src="./icon/phone.svg"height="20" alt="Phone Icon" class="contact-icon">
+                        <a href="tel:+91-9392863715">+91 7893096055</a>
+                    </span>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Utukuri Venkata Sreenivas. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+    </body>
+</html>
